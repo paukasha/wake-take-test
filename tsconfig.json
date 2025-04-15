@@ -1,0 +1,18 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    // дополнительные настройки компилятора (если нужны)
+  },
+  "paths": {
+    "#feature/*": [
+      "./feature"
+    ],
+    "@/*": [
+      "./src/*"
+    ]
+  },
+  "include": [
+    "**/*.vue",
+    "**/*.ts",
+  ]
+}
